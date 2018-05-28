@@ -1,0 +1,56 @@
+{
+  "nextEntryId": 13,
+  "nodes": [
+    {
+      "id": "0",
+      "name": "assets",
+      "type": null,
+      "children": [
+        {
+          "id": "2",
+          "name": "hand",
+          "type": null,
+          "children": [
+            {
+              "id": "4",
+              "name": "Paper",
+              "type": "sprite"
+            },
+            {
+              "id": "5",
+              "name": "Rock",
+              "type": "sprite"
+            },
+            {
+              "id": "6",
+              "name": "scissors",
+              "type": "sprite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "prefabs",
+      "type": null,
+      "children": []
+    },
+    {
+      "id": "1",
+      "name": "Scripts",
+      "type": null,
+      "children": []
+    },
+    {
+      "id": "9",
+      "name": "Scene",
+      "type": "scene"
+    },
+    {
+      "id": "12",
+      "name": "Game",
+      "type": "script"
+    }
+  ]
+}

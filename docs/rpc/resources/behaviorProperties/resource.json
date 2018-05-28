@@ -1,0 +1,10 @@
+{
+  "behaviors": {
+    "GameBehavior": {
+      "scriptId": "12",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}
