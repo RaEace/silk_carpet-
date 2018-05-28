@@ -1,0 +1,247 @@
+/****GENERAL****/
+
+body{
+	font-family: 'Century Gothic', Calibri, serif;
+	font-size : 13px;
+	margin: 0px;
+	padding: 0px;
+}
+
+p{
+	font-family: 'Century Gothic', Calibri, serif!important;
+	font-size : 13px!important;
+	
+}
+
+h1{
+	font-size: 22px;
+	font-weight: normal;
+	text-align : center;
+
+}
+
+
+header{
+	height: 100px;
+}
+
+
+nav li {
+	/**on enleve les puvces **/
+	list-style-type: none !important;
+	float: left !important; /**mettre les elelments en lignes**/
+
+}
+
+nav {
+	/**on etend menu navigateur sur toute la page**/
+	width : 100% !important;
+	background-color: #424558 !important; /**gris*/
+
+}
+
+/** reset des marges**/
+nav ul{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+nav a { /*on met en forme les elements de liens */
+      display : inline-block ;
+      text-decoration : none!important ;
+
+
+      padding : 20px 30px;
+     color: #FFF !important; /*blanc*/
+     text-transform: uppercase  ;
+     font-size: 15px ;
+}
+
+
+.table
+{
+	display: table!important ;
+	margin: auto!important;
+}
+
+footer
+{
+	height:400px;
+
+}
+footer a
+{
+	text-decoration : none ;
+}
+
+/*partie jeux */
+#conteneur
+{
+	display : flex;
+	flex-wrap : wrap;
+
+}
+img#gauche { 
+  float: left; 
+} 
+ 
+img#droite { 
+  float: right; 
+}
+
+
+/**bordure en haut element du menu + couleur de fond ***/
+
+.menu-acc:hover{
+	border-top: 5px solid #0ac20a;
+	background-color: RGBa(10, 194, 10, 0.15);
+	/*background-color: #4c8;*/
+}
+
+.menu-apro:hover{
+	border-top: 5px solid #99e6ff;
+	background-color: RGBa(153, 230, 255, 0.15);
+	
+}
+.menu-monprofil:hover{
+	border-top: 5px solid #557ef6;
+	background-color: RGBa(85, 126, 246,0.15);
+}
+.menu-jeux:hover{
+	border-top: 5px solid #ffb3ff;
+	background-color: RGBa(255, 179, 255, 0.15);
+}
+.menu-efraide:hover{
+	border-top: 5px solid #ff6666;
+	background-color: RGBa(255, 102, 102, 0.15);
+}
+.menu-con:hover{ /** menu-con  :  hover matche faut coller **/
+	border-top: 5px solid #ffa64d;
+	background-color: RGBa(255, 166, 77, 0.15);
+}
+.menu-inscrire:hover{ /** menu-con  :  hover matche faut coller **/
+	border-top: 5px solid #f1dc4f;
+	background-color: RGBa(255, 255, 128, 0.15);
+}
+
+
+
+section{
+	width: 100%;
+	min-height: 300px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+#contacter
+{
+	width: 100%;
+	min-height: 100px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+
+}
+
+
+#under-navbar-apropos {
+	border-top: 5px solid yellow;
+}
+
+#under-navbar-connexion {
+	border-top: 5px solid green;
+}
+
+
+.sec{
+	margin: 0px 10%;
+}
+
+.center{
+	float: center;
+	width: 50%;
+	margin : 0 auto;
+
+}
+
+.left{
+	float: left;
+	width: 45%;
+
+}
+
+.right{
+	float: left;
+	width: 45%;
+	margin-left: 5%;
+}
+
+
+
+@media screen and ( max-width: 780px){ /*reduction de la taille de certains éléments selon la taille de l'écran*/
+	header{
+		height: 50px;
+	}
+	h1{
+		font-size: 28px;
+		margin: 20px 0px 0px 0px;
+	}
+	nav li a {
+		font-size: 12px;
+		padding: 10px;
+	}
+
+	nav li:hover a{
+		padding : 5px 10px 10px 10px;
+	}
+	footer
+	{
+		height:600px!important;
+	}
+}
+
+
+
+
+.connect
+{
+  text-align: justify;
+  width: 80%;
+  margin: auto;
+}
+
+
+.bg-1 { 
+      background-color: #1abc9c;
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d;
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff;
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f;
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+
+  
+  footer a 
+  {
+  	text-decoration: none!important;
+  }
+
+  .bonjour
+  {
+  	margin-top:15px;
+  	
+  	color:white;
+  	font-weight: bold;
+  	font-size: 20px;
+  }

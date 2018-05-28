@@ -1,3 +1,6 @@
 # silk_carpet-
 
-//test//
+//
+Le site web est dans le dossier "projet_transvers"
+les prototypes de jeux son dans le dossier "docs"
+//
